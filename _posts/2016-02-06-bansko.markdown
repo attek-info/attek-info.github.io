@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Cabin"
+title:  "Bansko"
 date:   2016-02-06 15:08:10 -0500
-img: img/portfolio/cabin.png
+img: img/attek/bansko.jpg
+thumb: img/attek/thumbs/bansko.jpg
 modalID: modalCabin
 category: Design
 ---
