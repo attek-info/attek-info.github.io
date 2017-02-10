@@ -9,20 +9,11 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col">
-                  <h2>{{ post.title }}</h2>
-                  <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <!--
                         <h2>{{ post.title }}</h2>
                         <hr class="star-primary">
-                      -->
                         <img src="{{ site.baseurl }}/{{ post.img }}" class="img-responsive img-centered img-with-border" alt="">
-                      <!--
                         {{ post.content }}
                         <ul class="list-inline item-details">
                             <li>Category:
@@ -35,24 +26,7 @@
                             </li>
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        -->
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="modal-body">
-                        {{ post.content }}
-                        <ul class="list-inline item-details">
-                            <li>Category:
-                                <strong>{{ post.category }}
-                                    </strong>
-                            </li>
-                            <li>Date:
-                                <strong>{{ post.date | date: "%B %Y" }}
-                                    </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default btn-lg btn-primary btn-block" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
                 </div>
             </div>
         </div>
